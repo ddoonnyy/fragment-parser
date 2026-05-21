@@ -1,7 +1,3 @@
-# scrapes cheap usernames off fragment.com and dumps them to txt files.
-# fragment caps each page at ~500 rows, so we hit 4 different sort orders
-# and merge to widen the net. that's the trick basically.
-
 import argparse, re, sys
 from collections import defaultdict
 from datetime import datetime, timezone
